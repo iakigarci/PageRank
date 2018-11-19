@@ -28,6 +28,10 @@ public class Internet {
 		return mapa;
 	}
 	
+	public int tamano() {
+		return this.mapa.size();
+	}
+	
 	public void leerFicheroWeb(String pFichero) {
 		File fichero = new File(System.getProperty("user.dir"),pFichero);
 		if(!fichero.exists()) {
@@ -88,6 +92,10 @@ public class Internet {
 		return web;
 	}
 	
+	public Iterator<Map.Entry<Integer, String>> iterator(){
+		Set<Map.Entry<Integer,String>> mapaEntrada = mapa.entrySet();
+		return  mapaEntrada.iterator();
+	}
 	public int web2Id(String web) {
 		Set<Map.Entry<Integer,String>> mapaEntrada = mapa.entrySet();
 		Iterator<Map.Entry<Integer, String>> itr = mapaEntrada.iterator();
