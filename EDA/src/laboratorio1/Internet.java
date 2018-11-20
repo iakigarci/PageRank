@@ -96,6 +96,7 @@ public class Internet {
 		Set<Map.Entry<Integer,String>> mapaEntrada = mapa.entrySet();
 		return  mapaEntrada.iterator();
 	}
+	
 	public int web2Id(String web) {
 		Set<Map.Entry<Integer,String>> mapaEntrada = mapa.entrySet();
 		Iterator<Map.Entry<Integer, String>> itr = mapaEntrada.iterator();

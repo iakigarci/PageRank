@@ -9,15 +9,16 @@ public class MAIN {
 	public static void main(String[] args) {
 		
 		System.out.println("Leyendo los ficheros del programa...");
-		Internet.getMiInternet().leerFicheroWeb("index");
+		Internet.getMiInternet().leerFicheroWeb("smallindex");
 		System.out.println("HE LEIDO EL FICHERO WEB");
-		Enlaces.getMiEnlaces().leerFicheroEnlaces("pld-arcs-1-N");
+		Enlaces.getMiEnlaces().leerFicheroEnlaces("smallpld-arcs-1-N");
 		System.out.println("HE LEIDO EL FICHERO ENLACES");
 		Diccionario.getDiccionario().leerFicheroDiccionario("words.txt");
 		System.out.println("HE LEIDO EL FICHERO DICCIONARIO");
 		boolean acabar = false;
 		while(!acabar) {
-			menu();
+			//menu();
+			Grafo.getMiGrafo().pruebaGrafo();
 			System.out.println("�Quieres continuar en nuestro buscador?");
 			if(!Teclado.leerBoolean()) { 
 				acabar = true;
