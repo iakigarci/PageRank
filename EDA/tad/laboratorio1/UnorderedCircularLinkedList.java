@@ -45,7 +45,7 @@ public class UnorderedCircularLinkedList<T> extends CircularLinkedList<T> implem
 					nuevo.next = act.next;
 					act.next = nuevo;
 					super.count++;
-					salir = true;ac
+					salir = true;
 				}else if(act.next.equals(super.last) && !act.next.data.equals(target)) {
 					salir = true;
 				}else {

@@ -1,8 +1,13 @@
 package laboratorio1;
 
-import static org.junit.Assert.*;
 
 import java.util.Iterator;
+
+import static org.junit.Assert.*;
+
+import static org.junit.Assert.*;
+
+import java.util.ArrayList;
 
 import org.junit.After;
 import org.junit.Before;
@@ -18,7 +23,6 @@ public class UnorderedCircularLinkedListTest {
 	public void tearDown() throws Exception {
 	}
 
-	@Test
 	public void testAddToFront() {
 		UnorderedCircularLinkedList<Integer> uwu = new UnorderedCircularLinkedList<>();
 		
@@ -39,7 +43,6 @@ public class UnorderedCircularLinkedListTest {
 
 	}
 
-	@Test
 	public void testAddToRear() {
 		UnorderedCircularLinkedList<Integer> uwu = new UnorderedCircularLinkedList<>();
 		
@@ -60,7 +63,6 @@ public class UnorderedCircularLinkedListTest {
 
 	}
 
-	@Test
 	public void testAddAfter() {
 		UnorderedCircularLinkedList<Integer> uwu = new UnorderedCircularLinkedList<>();
 		
@@ -105,7 +107,6 @@ public class UnorderedCircularLinkedListTest {
 		
 	}
 
-	@Test
 	public void testRemoveLast() {
 		UnorderedCircularLinkedList<Integer> uwu = new UnorderedCircularLinkedList<>();
 		UnorderedCircularLinkedList<Integer> uwu2 = new UnorderedCircularLinkedList<>();
@@ -125,7 +126,6 @@ public class UnorderedCircularLinkedListTest {
 		assertEquals(uwu.count,2);
 	}
 
-	@Test
 	public void testRemove() {
 		UnorderedCircularLinkedList<Integer> uwu = new UnorderedCircularLinkedList<>();
 		UnorderedCircularLinkedList<Integer> uwu2 = new UnorderedCircularLinkedList<>();
@@ -166,7 +166,6 @@ public class UnorderedCircularLinkedListTest {
 		
 	}
 
-	@Test
 	public void testFirst() {
 		UnorderedCircularLinkedList<Integer> uwu = new UnorderedCircularLinkedList<>();
 		
@@ -177,7 +176,6 @@ public class UnorderedCircularLinkedListTest {
 		assertTrue(uwu.first().equals(3));
 	}
 
-	@Test
 	public void testLast() {
 		UnorderedCircularLinkedList<Integer> uwu = new UnorderedCircularLinkedList<>();
 		
@@ -188,7 +186,6 @@ public class UnorderedCircularLinkedListTest {
 		assertTrue(uwu.last().equals(1));
 	}
 
-	@Test
 	public void testContains() {
 		UnorderedCircularLinkedList<Integer> uwu = new UnorderedCircularLinkedList<>();
 		
@@ -201,7 +198,6 @@ public class UnorderedCircularLinkedListTest {
 		assertTrue(uwu.contains(3));
 	}
 
-	@Test
 	public void testFind() {
 		UnorderedCircularLinkedList<Integer> uwu = new UnorderedCircularLinkedList<>();
 		
@@ -215,7 +211,6 @@ public class UnorderedCircularLinkedListTest {
 		assertNull(uwu.find(4));
 	}
 
-	@Test
 	public void testIsEmpty() {
 		
 		UnorderedCircularLinkedList<Integer> uwu = new UnorderedCircularLinkedList<>();
@@ -245,7 +240,6 @@ public class UnorderedCircularLinkedListTest {
 	
 	}
 
-	@Test
 	public void testIterator() {
 		UnorderedCircularLinkedList<Integer> uwu = new UnorderedCircularLinkedList<>();
 		UnorderedCircularLinkedList<Integer> uwu2 = new UnorderedCircularLinkedList<>();

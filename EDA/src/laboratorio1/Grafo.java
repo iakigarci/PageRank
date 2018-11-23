@@ -13,7 +13,7 @@ public class Grafo {
 	private String[] keys;
 	private ArrayList<Integer>[] adjList;
 	private static Grafo miGrafo = new Grafo();
-	
+
 	public Grafo() {
 		
 	}
@@ -50,33 +50,40 @@ public class Grafo {
 	
 	public boolean estanConectados(String a1, String a2) {
 		Queue<Integer> porExaminar = new LinkedList<Integer>();
-		
-		int pos1 = th.get(a1);
-		int pos2 = th.get(a2);
-		int act = pos1;
 		boolean enc = false;
-		boolean[] examinados = new boolean[th.size()];
-		
-		if( a1.equals(a2)) enc = true;
-		else {
-			porExaminar.add(pos1);
-			examinados[pos1] = false;
-			while(!enc && !porExaminar.isEmpty()) {
-				act = porExaminar.poll(); 
-				if(!examinados[act]) { //si el que esta por examinar no esta examinado
-					examinados[act] = true;
-					if(act==pos2) { //act es el ultimo
-						enc = true;
-					}else {
-						for(int i=0; i<adjList[act].size(); i++) {
-							porExaminar.add(adjList[act].get(i)); //anadimos todos los enlaces
+		if (th==null || keys==null || adjList == null){
+			System.out.println("Grafo vacio");
+		}else if (th.size()==1 || keys.length==1 || adjList.length == 1){
+			System.out.println("Grafo de un elemento");
+		}else {
+			int pos1 = th.get(a1);
+			int pos2 = th.get(a2);
+			int act = pos1;
+
+			boolean[] examinados = new boolean[th.size()];
+
+			if (a1.equals(a2)) enc = true;
+			else {
+				porExaminar.add(pos1);
+				examinados[pos1] = false;
+				while (!enc && !porExaminar.isEmpty()) {
+					act = porExaminar.poll();
+					if (!examinados[act]) { //si el que esta por examinar no esta examinado
+						examinados[act] = true;
+						if (act == pos2) { //act es el ultimo
+							enc = true;
+						} else if (adjList[act] == null) {
+							continue;
+						} else {
+							for (int i = 0; i < adjList[act].size(); i++) {
+								porExaminar.add(adjList[act].get(i)); //anadimos todos los enlaces
+							}
 						}
+
 					}
-			
 				}
 			}
 		}
-		
 		return enc;
 		
 	}
@@ -114,7 +121,15 @@ public class Grafo {
 		return camino;
 		
 	}
-	
+
+	public void printGrafo(){
+		System.out.println(this.th);
+		for (int i = 0; i < adjList.length; i++) {
+			System.out.println(i+" => "+adjList[i]);
+
+		}
+	}
+
 	public void printCamino(ArrayList<String> pCamino) {
 		for( int i=0; i<pCamino.size(); i++) {
 			System.out.println(pCamino.get(i)+"->");
@@ -144,6 +159,23 @@ public class Grafo {
 		}
 		
 	}
-	
-	
+
+	public void resetearGrafo(){
+		this.th.clear();
+		this.keys = null;
+		this.adjList = null;
+		//System.out.println("SE HA RESETEADO: "+th.size());
+	}
+
+	public void setTh(HashMap<String, Integer> th) {
+		this.th = th;
+	}
+
+	public void setKeys(String[] keys) {
+		this.keys = keys;
+	}
+
+	public void setAdjList(ArrayList<Integer>[] adjList) {
+		this.adjList = adjList;
+	}
 }

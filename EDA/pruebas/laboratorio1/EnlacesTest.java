@@ -1,5 +1,6 @@
 package laboratorio1;
 
+
 import static org.junit.Assert.*;
 
 import java.util.ArrayList;
@@ -36,7 +37,6 @@ public class EnlacesTest {
 		assertNotNull(pEnlaces.getEnlaces());
 	}
 
-	@Test
 	public void testGetMiEnlaces() {
 		assertNotNull(pEnlaces);
 	}

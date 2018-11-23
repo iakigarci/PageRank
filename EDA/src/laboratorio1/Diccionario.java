@@ -24,7 +24,7 @@ public class Diccionario {
 		
 		File fichero = new File(System.getProperty("user.dir"),pFichero);
 		if(!fichero.exists()) {
-			System.out.println("�NO SE HA PODIDO CARGAR EL FICHERO DE PALABRAS!");
+			System.out.println("NO SE HA PODIDO CARGAR EL FICHERO DE PALABRAS!");
 		}else{
 			Scanner sc = null;
 			try {
@@ -41,7 +41,6 @@ public class Diccionario {
 			}
 			sc.close();
 		}
-		System.out.println(diccionarioMapa.size());
 	}
 	
 	
