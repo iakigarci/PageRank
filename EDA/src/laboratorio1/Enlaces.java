@@ -28,6 +28,10 @@ public class Enlaces {
 		return miEnlaces;
 	}
 	
+	public int tamano() {
+		return this.enlaces.size();
+	}
+	
 	public void leerFicheroEnlaces(String pFichero) {
 		File fichero = new File(System.getProperty("user.dir"),pFichero);
 		if(!fichero.exists()) {

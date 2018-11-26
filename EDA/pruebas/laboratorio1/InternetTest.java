@@ -1,5 +1,10 @@
 package laboratorio1;
 
+
+import java.util.ArrayList;
+
+import static org.junit.Assert.*;
+
 import static org.junit.Assert.*;
 
 import java.util.ArrayList;
@@ -53,7 +58,6 @@ public class InternetTest {
 		assertNotNull(pInternet.getMapa());
 	}
 
-	@Test
 	public void testId2Web() {
 		assertEquals("owoManland.com",pInternet.id2Web(0));
 		assertEquals("uwuManland.com",pInternet.id2Web(1));
@@ -245,7 +249,6 @@ public class InternetTest {
 		
 	}
 	
-	@Test
 	public void testAnadirWeb() {
 		pInternet.anadirWebTest(1, "owoManland.com", null, null);
 		assertEquals(9,pInternet.ordenarHash().size());
