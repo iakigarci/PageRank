@@ -175,15 +175,15 @@ public class Grafo {
 		String web2 = keys[id2];
 		System.out.println("ID :"+id2+"...URL: "+web2);
 		Stopwatch clock = new Stopwatch();
-		boolean conectados = false;
-		conectados = this.estanConectados(web1, web2);
-		
-		if (conectados) {
+        ArrayList<String> array = this.caminoConectados(web1, web2);
+
+		if (array.size()>0) {
 			System.out.println("ESTÁN CONECTADOS");
-			this.printCamino(this.caminoConectados(web1, web2));
+			this.printCamino(array);
 		}else {
 			System.out.println("NO ESTÁN CONECTADOS");
 		}
+        System.out.println();
 		System.out.println("Tiempo transcurrido: "+clock.elapsedTime());
 	}
 

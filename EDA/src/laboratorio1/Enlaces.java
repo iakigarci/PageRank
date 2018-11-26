@@ -43,6 +43,7 @@ public class Enlaces {
 		}catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
+		int j = 0;
 		String linea = null;
 		while(sc.hasNextLine()) {
 			linea = sc.nextLine();
@@ -58,6 +59,8 @@ public class Enlaces {
 				}
 				enlaces.put(pId, pEnlaces);
 			}else {enlaces.put(pId, null);}
+			j++;
+            System.out.println(j);
 		}
 		sc.close();
 	}

@@ -18,8 +18,8 @@ public class MAIN {
 		String f3 = "words";
 		switch (accion) {
 			case 1:
-				f1 = "smallindex";
-				f2 = "smallpld-arcs-1-N";
+				f1 = "index";
+				f2 = "pld-arcs-1-N";
 				leerFicheros(f1,f2,f3);
 				Grafo.getMiGrafo().pruebaGrafo();
 				break;
