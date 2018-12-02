@@ -12,6 +12,7 @@ public class MAIN {
 		System.out.println("1- Casos de prueba Grafo");
 		System.out.println("2- Ejercicio Grafo");
 		System.out.println("3- Menu");
+        System.out.println("4- Page Rank");
 		int accion = Teclado.leerInteger();
 		String f1 = null;
 		String f2 = null;
@@ -40,6 +41,14 @@ public class MAIN {
 						acabar = true;
 					}
 				}
+				break;
+            case 4:
+                f1 = "indexGrafo";
+                f2 = "pldGrafo";
+                leerFicheros(f1,f2,f3);
+                Internet.getMiInternet().imprimirHash(Internet.getMiInternet().pageRank());
+
+
 		}
 
 		System.out.println("�Quieres guardar los ficheros nuevos?");

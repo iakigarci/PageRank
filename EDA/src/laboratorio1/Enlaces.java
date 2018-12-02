@@ -59,10 +59,11 @@ public class Enlaces {
 				}
 				enlaces.put(pId, pEnlaces);
 			}else {enlaces.put(pId, null);}
-			j++;
-            System.out.println(j);
+			//j++;
+            //System.out.println(j);
 		}
 		sc.close();
+        System.out.println(this.enlaces.size());
 	}
 	
 	public void escribirFicheroEnlaces(String pFichero) {
