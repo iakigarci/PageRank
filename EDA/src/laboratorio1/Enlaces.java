@@ -100,17 +100,22 @@ public class Enlaces {
 		this.enlaces.put(pId, pEnlaces);
 	}
 	
-	/*
-	public boolean esta(int pId) {
-		boolean esta =this.enlaces.containsKey(pId);
-		if(esta) {
-			System.out.println("EXISTE ESE ENLACE");
-		}
-		return esta;
-	}
-	*/
-	
 	public void resetearHashmap() {
 		enlaces.clear();
 	}
+
+	public ArrayList<Integer> referenciados(int ID){
+	    ArrayList<Integer> resultado = new ArrayList<>();
+        Set<Map.Entry<Integer,ArrayList<Integer>>> mapaEntrada = enlaces.entrySet();
+        Iterator<Map.Entry<Integer, ArrayList<Integer>>> itr = mapaEntrada.iterator();
+        while(itr.hasNext()) {
+            Map.Entry<Integer, ArrayList<Integer>> entrada = itr.next();
+            if (entrada.getValue()!=null) {
+                if (entrada.getValue().contains(ID)) {
+                    resultado.add(entrada.getKey());
+                }
+            }
+        }
+        return resultado;
+    }
 }	

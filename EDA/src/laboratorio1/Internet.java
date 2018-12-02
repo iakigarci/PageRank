@@ -361,7 +361,7 @@ public class Internet {
             while(itrPR.hasNext()) {
                 Map.Entry<String, Double> entradaPR = itrPR.next();
                 //Buscamos sus enlaces y obtenemos la suma de dividendo
-                enlaces = Enlaces.getMiEnlaces().id2Enlaces(this.web2Id(entradaPR.getKey()));
+                enlaces = Enlaces.getMiEnlaces().referenciados(this.web2Id(entradaPR.getKey()));
                 if (enlaces!=null) {
                     for (int i = 0; i < enlaces.size(); i++) {
                         suma = suma + (puntuacion[enlaces.get(i)]/enlaces.size());
@@ -376,9 +376,10 @@ public class Internet {
                 }
                 diff = diff + diffAct; //introducimos la diferencia
                 pageRank.put(entradaPR.getKey(),PR);
+                suma = 0.0;
             }
 
-            if ((diff > -0.0001) && (diff < 0.0001)) {
+            if ((diff < 0.0001)) {
                 acabar = true;
                 diff = 0.0;
             }

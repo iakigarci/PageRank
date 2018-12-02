@@ -43,8 +43,8 @@ public class MAIN {
 				}
 				break;
             case 4:
-                f1 = "indexGrafo";
-                f2 = "pldGrafo";
+                f1 = "smallindex";
+                f2 = "smallpld-arcs-1-N";
                 leerFicheros(f1,f2,f3);
                 Internet.getMiInternet().imprimirHash(Internet.getMiInternet().pageRank());
 
