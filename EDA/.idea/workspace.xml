@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a97d1ec-7f52-4b2c-b04b-f2c184cf4d74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EDA/laboratorio1/Enlaces.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EDA/laboratorio1/Enlaces.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EDA/laboratorio1/Grafo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EDA/laboratorio1/Grafo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EDA/laboratorio1/MAIN.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EDA/laboratorio1/MAIN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/laboratorio1/Enlaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratorio1/Enlaces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/laboratorio1/Grafo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratorio1/Grafo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/laboratorio1/MAIN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratorio1/MAIN.java" afterDir="false" />
-    </list>
+    <list default="true" id="6a97d1ec-7f52-4b2c-b04b-f2c184cf4d74" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,6 +91,34 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-894961449">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="README" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="README" value="46" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="46" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -143,11 +162,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/laboratorio1/Grafo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="365">
-              <caret line="185" column="29" lean-forward="true" selection-start-line="185" selection-start-column="29" selection-end-line="185" selection-end-column="29" />
+              <caret line="185" column="29" selection-start-line="185" selection-start-column="29" selection-end-line="185" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/laboratorio1/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -155,13 +183,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/laboratorio1/Enlaces.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
+            <state relative-caret-position="765">
               <caret line="60" column="38" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="38" />
               <folding>
                 <element signature="e#580#581#0" expanded="true" />
                 <element signature="e#603#604#0" expanded="true" />
-                <element signature="e#2429#2430#0" expanded="true" />
-                <element signature="e#2459#2460#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -191,7 +217,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/laboratorio1/Grafo.java" root0="SKIP_HIGHLIGHTING" />
@@ -218,10 +244,11 @@
         <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
         <option value="$PROJECT_DIR$/src/laboratorio1/Enlaces.java" />
         <option value="$PROJECT_DIR$/src/laboratorio1/Grafo.java" />
+        <option value="$PROJECT_DIR$/src/laboratorio1/README" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="775" />
     <option name="width" value="1150" />
     <option name="height" value="1040" />
@@ -234,34 +261,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ALEx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ALEx" type="462c0819:PsiDirectoryNode" />
+              <item name="EDA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EDA" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ALEx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ALEx" type="462c0819:PsiDirectoryNode" />
-              <item name="pruebas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ALEx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ALEx" type="462c0819:PsiDirectoryNode" />
-              <item name="pruebas" type="462c0819:PsiDirectoryNode" />
-              <item name="laboratorio1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ALEx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ALEx" type="462c0819:PsiDirectoryNode" />
+              <item name="EDA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EDA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ALEx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ALEx" type="462c0819:PsiDirectoryNode" />
+              <item name="EDA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EDA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="laboratorio1" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -385,7 +401,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15559895" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15532055" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -538,6 +554,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StopWatch.java" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pruebas/laboratorio1/TestGrafo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
@@ -552,13 +575,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/laboratorio1/Internet.java">
+    <entry file="file://$PROJECT_DIR$/src/laboratorio1/MAIN.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#518#519#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1156">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
         </state>
       </provider>
     </entry>
@@ -573,37 +593,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/laboratorio1/Enlaces.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
+        <state relative-caret-position="765">
           <caret line="60" column="38" selection-start-line="60" selection-start-column="37" selection-end-line="60" selection-end-column="38" />
           <folding>
             <element signature="e#580#581#0" expanded="true" />
             <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#2429#2430#0" expanded="true" />
-            <element signature="e#2459#2460#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/laboratorio1/MAIN.java">
+    <entry file="file://$PROJECT_DIR$/src/laboratorio1/Internet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="238">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#518#519#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/laboratorio1/Grafo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
-          <caret line="185" column="29" lean-forward="true" selection-start-line="185" selection-start-column="29" selection-end-line="185" selection-end-column="29" />
+          <caret line="185" column="29" selection-start-line="185" selection-start-column="29" selection-end-line="185" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/laboratorio1/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
