@@ -1,11 +1,7 @@
 package laboratorio1;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.Map;
-import java.util.Queue;
+import java.lang.reflect.Array;
+import java.util.*;
 
 public class Grafo {
 
@@ -13,6 +9,7 @@ public class Grafo {
     private String[] keys;
     private ArrayList<Integer>[] adjList;
     private static Grafo miGrafo = new Grafo();
+    private HashMap<String, Double> pageRank = new HashMap<>();
 
     public Grafo() {
 
@@ -194,6 +191,10 @@ public class Grafo {
         //System.out.println("SE HA RESETEADO: "+th.size());
     }
 
+    public HashMap<String, Double> getPageRank(){
+        return this.pageRank;
+    }
+
     public void setTh(HashMap<String, Integer> th) {
         this.th = th;
     }
@@ -207,4 +208,113 @@ public class Grafo {
     }
 
 
+    public ArrayList<Par> buscar(String palabraClave) {
+        ArrayList<Par> resultado = new ArrayList<>();
+        this.pageRank();
+        System.out.println("SE HA REALIZADO EL PAGE RANK");
+        Set<Map.Entry<String, Double>> mapaEntrada = this.pageRank.entrySet();
+        Iterator<Map.Entry<String, Double>> itr = mapaEntrada.iterator();
+        int i = 0;
+        while(itr.hasNext()) {  //Asignamos la cantidad que va a dividir cada web
+            Map.Entry<String, Double> entrada = itr.next();
+            if (entrada.getKey().contains(palabraClave)) {
+                //Introducimos la palabra de manera ordenada en el ArrayList
+                resultado.add(new Par(entrada.getKey(), entrada.getValue()));
+            }
+        }
+
+        //Ordenamos el ArrayList de Par
+        Collections.sort(resultado,Par.Comparators.PR);
+        for (int j = 0; j < resultado.size(); j++) {
+            System.out.println(resultado.get(j).web+" -> "+resultado.get(j).pageRank);
+        }
+
+        return resultado;
+
+    }
+
+    public HashMap<String, Double> pageRank(){
+        // Post: el resultado es el valor del algoritmo PageRank para cada web
+        //de la lista de webs
+
+        //Ya estan inicializados loos pageRank de las webs.
+
+        boolean acabar = false;
+        Double PR;
+        Double division = 0.0;
+        Double suma = 0.0;
+        Double[] puntuacion = new Double[this.pageRank.size()];
+        Double diff = 0.0;
+        Double diffAct;
+        ArrayList<Integer> enlacesEntrantes = new ArrayList<>();
+        ArrayList<Integer> enlaces = new ArrayList<>();
+        int d2;
+        int id;
+        Double d1;
+        while (!acabar) {
+            //Recorremos las webs hasta que la diferencia sea menor que el umbral
+            Set<Map.Entry<String, Double>> mapaEntrada = this.pageRank.entrySet();
+            Iterator<Map.Entry<String, Double>> itr = mapaEntrada.iterator();
+            while(itr.hasNext()) {  //Asignamos la cantidad que va a dividir cada web
+                Map.Entry<String, Double> entrada = itr.next();
+                id = th.get(entrada.getKey());
+                enlaces = Enlaces.getMiEnlaces().id2Enlaces(id); //obtenemos los enlaces
+                //Double d1 = pageRank.get(this.id2Web(this.web2Id(entrada.getKey())));
+                //enlacesEntrantes = Enlaces.getMiEnlaces().referenciados(th.get(entrada.getKey()));
+                if (enlaces==null || enlaces.size()==0 ){
+                    puntuacion[id] = 0.0;
+                }else{
+                    puntuacion[id] = (double) entrada.getValue()/enlaces.size();
+                }
+            }
+
+            //Recorremos el HashMap de pageRank y obtenemos los enlaces referenciados
+            Set<Map.Entry<String,Double>> mapaEntradaPR = pageRank.entrySet();
+            Iterator<Map.Entry<String, Double>> itrPR = mapaEntradaPR.iterator();
+            while(itrPR.hasNext()) {
+                Map.Entry<String, Double> entradaPR = itrPR.next();
+                id = th.get(entradaPR.getKey());
+                //Buscamos sus enlaces y obtenemos la suma de dividendo
+                enlacesEntrantes = Enlaces.getMiEnlaces().referenciados(id);
+                if (enlacesEntrantes!=null) {
+                    for (int i = 0; i < enlacesEntrantes.size(); i++) {
+                        suma = suma + (puntuacion[enlacesEntrantes.get(i)]); //obtenemos el sumatorio PR(i)/C(i)
+                    }
+                }else{
+                    suma = 0.0;
+                }
+                PR = ((1-0.85)/this.pageRank.size())+(0.85*(suma)); //Calculamos el PR del actual
+                diffAct = PR-this.pageRank.get(entradaPR.getKey());
+                if (diffAct<0){ //valor absoluto
+                    diffAct = diffAct*(-1);
+                }
+                diff = diff + diffAct; //introducimos la diferencia
+                pageRank.put(entradaPR.getKey(),PR);
+                suma = 0.0;
+            }
+
+            if ((diff < 0.0001)) {
+                acabar = true;
+            }else{
+                diff = 0.0;
+            }
+
+        }
+
+        return pageRank;
+    }
+
+    public void imprimirHash() {
+        this.pageRank();
+        Set<Map.Entry<String,Double>> mapaEntrada = this.pageRank.entrySet();
+        Iterator<Map.Entry<String,Double>> itr = mapaEntrada.iterator();
+        int i = 0;
+        while(itr.hasNext()) {  //Asignamos la cantidad que va a dividir cada web
+            Map.Entry<String,Double> entrada = itr.next();
+            System.out.println(i);
+            System.out.print(entrada.getValue());
+            System.out.print(" -> ");
+            System.out.println(entrada.getKey());
+        }
+    }
 }

@@ -15,7 +15,7 @@ public class Internet {
 
 	private static Internet miInternet = new Internet();
 	private HashMap<Integer, String> mapa = new HashMap<>();
-    private HashMap<String, Double> pageRank = new HashMap<>();
+
 	
 	public Internet() {
 		
@@ -54,7 +54,7 @@ public class Internet {
 			if(sp.length!=0) {
 				int pId = Integer.parseInt(sp[1]);
 				mapa.put(pId,pNombre);
-				pageRank.put(pNombre,0.25);
+				Grafo.getMiGrafo().getPageRank().put(pNombre,0.25);
 			}else {
 				mapa.put(null, null);
 			}
@@ -321,83 +321,4 @@ public class Internet {
 		mapa.clear();
 	}
 
-    public HashMap<String, Double> pageRank(){
-        // Post: el resultado es el valor del algoritmo PageRank para cada web
-        //de la lista de webs
-
-        //Ya estan inicializados loos pageRank de las webs. 
-
-        boolean acabar = false;
-        Double PR;
-        Double dividendo = 0.0;
-        Double suma = 0.0;
-        Double[] puntuacion = new Double[this.mapa.size()];
-        Double diff = 0.0;
-        Double diffAct;
-        ArrayList<Integer> enlaces = new ArrayList<>();
-        Double d2;
-        while (!acabar) {
-            //Recorremos las webs hasta que la diferencia sea menor que el umbral
-            Set<Map.Entry<Integer,String>> mapaEntrada = mapa.entrySet();
-            Iterator<Map.Entry<Integer, String>> itr = mapaEntrada.iterator();
-            while(itr.hasNext()) {  //Asignamos la cantidad que va a dividir cada web
-                Map.Entry<Integer, String> entrada = itr.next();
-                enlaces = Enlaces.getMiEnlaces().id2Enlaces(entrada.getKey()); //obtenemos los enlaces
-                Double d1 = pageRank.get(this.id2Web(entrada.getKey()));
-                if(enlaces!=null) {
-                    d2 = (double) enlaces.size();
-                    dividendo =  d1/d2 ;
-                    puntuacion[entrada.getKey()] = dividendo;
-                }else{
-                    d2 = 0.0;
-                    puntuacion[entrada.getKey()] = 0.0;
-
-                }
-            }
-
-            //asignamos a cada web su valor actual
-            Set<Map.Entry<String,Double>> mapaEntradaPR = pageRank.entrySet();
-            Iterator<Map.Entry<String, Double>> itrPR = mapaEntradaPR.iterator();
-            while(itrPR.hasNext()) {
-                Map.Entry<String, Double> entradaPR = itrPR.next();
-                //Buscamos sus enlaces y obtenemos la suma de dividendo
-                enlaces = Enlaces.getMiEnlaces().referenciados(this.web2Id(entradaPR.getKey()));
-                if (enlaces!=null) {
-                    for (int i = 0; i < enlaces.size(); i++) {
-                        suma = suma + (puntuacion[enlaces.get(i)]/enlaces.size());
-                    }
-                }else{
-                     suma = 0.0;
-                }
-                PR = ((1-0.85)/this.tamano())+0.085*(suma);
-                diffAct = PR-puntuacion[this.web2Id(entradaPR.getKey())];
-                if (diff<0){ //valor absoluto
-                    diffAct = diffAct*(-1);
-                }
-                diff = diff + diffAct; //introducimos la diferencia
-                pageRank.put(entradaPR.getKey(),PR);
-                suma = 0.0;
-            }
-
-            if ((diff < 0.0001)) {
-                acabar = true;
-                diff = 0.0;
-            }
-        }
-
-        return pageRank;
-    }
-
-    public void imprimirHash(HashMap<String, Double> pMapa) {
-        Set<Map.Entry<String,Double>> mapaEntrada = pMapa.entrySet();
-        Iterator<Map.Entry<String,Double>> itr = mapaEntrada.iterator();
-        int i = 0;
-        while(itr.hasNext()) {  //Asignamos la cantidad que va a dividir cada web
-            Map.Entry<String,Double> entrada = itr.next();
-            System.out.println(i);
-            System.out.print(entrada.getValue());
-            System.out.print(" -> ");
-            System.out.println(entrada.getKey());
-        }
-    }
 }

@@ -13,6 +13,7 @@ public class MAIN {
 		System.out.println("2- Ejercicio Grafo");
 		System.out.println("3- Menu");
         System.out.println("4- Page Rank");
+        System.out.println("5- Buscador Page Rank");
 		int accion = Teclado.leerInteger();
 		String f1 = null;
 		String f2 = null;
@@ -43,11 +44,24 @@ public class MAIN {
 				}
 				break;
             case 4:
+                f1 = "indexPrueba";
+                f2 = "pldPruebas";
+                leerFicheros(f1,f2,f3);
+                Grafo.getMiGrafo().inicializarGrafo();
+                Grafo.getMiGrafo().imprimirHash();
+                //System.out.println("Introduce la palabara clave");
+                //String clave = Teclado.leerString();
+                //Grafo.getMiGrafo().buscar(clave);
+                break;
+            case 5:
                 f1 = "smallindex";
                 f2 = "smallpld-arcs-1-N";
                 leerFicheros(f1,f2,f3);
-                Internet.getMiInternet().imprimirHash(Internet.getMiInternet().pageRank());
-
+                Grafo.getMiGrafo().inicializarGrafo();
+                System.out.println("¿Qué palabra quieres buscar?");
+                String palabraClave = Teclado.leerString();
+                Grafo.getMiGrafo().buscar(palabraClave);
+                break;
 
 		}
 
