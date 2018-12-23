@@ -139,22 +139,5 @@ public class TestGrafo {
         grafo.setTh(thAux);
 
         assertEquals(0, grafo.caminoConectados(w0,w1).size());
-
-
-
-
-
-    }
-
-    @Test
-    public void printGrafo() {
-    }
-
-    @Test
-    public void printCamino() {
-    }
-
-    @Test
-    public void pruebaGrafo() {
     }
 }

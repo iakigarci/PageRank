@@ -44,8 +44,10 @@ public class MAIN {
 				}
 				break;
             case 4:
-                f1 = "indexPrueba";
-                f2 = "pldPruebas";
+                //f1 = "indexPrueba";
+                f1 = "smallindex";
+                f2 = "smallpld-arcs-1-N";
+                //f2 = "pldPruebas";
                 leerFicheros(f1,f2,f3);
                 Grafo.getMiGrafo().inicializarGrafo();
                 Grafo.getMiGrafo().imprimirHash();

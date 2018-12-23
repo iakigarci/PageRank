@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a97d1ec-7f52-4b2c-b04b-f2c184cf4d74" name="Default Changelist" comment="" />
+    <list default="true" id="6a97d1ec-7f52-4b2c-b04b-f2c184cf4d74" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EDA/laboratorio1/MAIN.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EDA/laboratorio1/MAIN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EDA/laboratorio1/TestGrafo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EDA/laboratorio1/TestGrafo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pruebas/laboratorio1/TestGrafo.java" beforeDir="false" afterPath="$PROJECT_DIR$/pruebas/laboratorio1/TestGrafo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/laboratorio1/MAIN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratorio1/MAIN.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,25 +105,26 @@
     <session id="-894961449">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.10" value="4" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="README" value="1" />
-          <entry key="java" value="11" />
+          <entry key="java" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="11" />
+          <entry key="JAVA" value="13" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -125,12 +132,12 @@
         <counts>
           <entry key="README" value="46" />
           <entry key="dummy" value="2" />
-          <entry key="java" value="4789" />
+          <entry key="java" value="4797" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4789" />
+          <entry key="JAVA" value="4797" />
           <entry key="PLAIN_TEXT" value="48" />
         </counts>
       </usages-collector>
@@ -141,30 +148,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/laboratorio1/MAIN.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/laboratorio1/Diccionario.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-              <folding>
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/laboratorio1/Par.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="714">
+              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -172,30 +157,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/laboratorio1/Grafo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="219" column="58" lean-forward="true" selection-start-line="219" selection-start-column="58" selection-end-line="219" selection-end-column="58" />
+            <state relative-caret-position="170">
+              <caret line="295" column="24" selection-start-line="295" selection-start-column="24" selection-end-line="295" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/laboratorio1/Internet.java">
+        <entry file="file://$PROJECT_DIR$/pruebas/laboratorio1/TestGrafo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/laboratorio1/Enlaces.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-              <folding>
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#603#604#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1819">
+              <caret line="114" selection-start-line="114" selection-end-line="114" />
             </state>
           </provider>
         </entry>
@@ -231,7 +203,6 @@
         <option value="$PROJECT_DIR$/pruebastad/laboratorio1/UnorderedCircularLinkedListTest.java" />
         <option value="$PROJECT_DIR$/pruebastad/laboratorio1/OrderedCircularLinkedListTest.java" />
         <option value="$PROJECT_DIR$/src/laboratorio1/Diccionario.java" />
-        <option value="$PROJECT_DIR$/pruebas/laboratorio1/TestGrafo.java" />
         <option value="$PROJECT_DIR$/src/StopWatch.java" />
         <option value="$PROJECT_DIR$/src/laboratorio1/Stopwatch.java" />
         <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
@@ -241,14 +212,15 @@
         <option value="$PROJECT_DIR$/src/laboratorio1/Par.java" />
         <option value="$PROJECT_DIR$/src/laboratorio1/Internet.java" />
         <option value="$PROJECT_DIR$/src/laboratorio1/Grafo.java" />
+        <option value="$PROJECT_DIR$/pruebas/laboratorio1/TestGrafo.java" />
         <option value="$PROJECT_DIR$/src/laboratorio1/MAIN.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="979" />
-    <option name="height" value="1090" />
+    <option name="x" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1089" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -258,6 +230,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -265,6 +238,17 @@
             <path>
               <item name="EDA" type="b2602c69:ProjectViewProjectNode" />
               <item name="EDA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EDA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EDA" type="462c0819:PsiDirectoryNode" />
+              <item name="pruebas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EDA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EDA" type="462c0819:PsiDirectoryNode" />
+              <item name="pruebas" type="462c0819:PsiDirectoryNode" />
+              <item name="laboratorio1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EDA" type="b2602c69:ProjectViewProjectNode" />
@@ -292,7 +276,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -409,13 +392,13 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10641111" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19299406" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.47801417" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4988662" weight="0.32348993" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4988662" weight="0.50067115" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.357047" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -570,13 +553,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/laboratorio1/README" />
-    <entry file="file://$PROJECT_DIR$/pruebas/laboratorio1/TestGrafo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/laboratorio1/Stopwatch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -631,10 +607,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-          <folding>
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/laboratorio1/Par.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -649,31 +628,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/laboratorio1/MAIN.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+        <state relative-caret-position="714">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/laboratorio1/Par.java">
+    <entry file="file://$PROJECT_DIR$/pruebas/laboratorio1/TestGrafo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="1819">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/laboratorio1/Grafo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="219" column="58" lean-forward="true" selection-start-line="219" selection-start-column="58" selection-end-line="219" selection-end-column="58" />
+        <state relative-caret-position="170">
+          <caret line="295" column="24" selection-start-line="295" selection-start-column="24" selection-end-line="295" selection-end-column="30" />
         </state>
       </provider>
     </entry>
