@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a97d1ec-7f52-4b2c-b04b-f2c184cf4d74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EDA/laboratorio1/MAIN.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EDA/laboratorio1/MAIN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EDA/laboratorio1/TestGrafo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EDA/laboratorio1/TestGrafo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pruebas/laboratorio1/TestGrafo.java" beforeDir="false" afterPath="$PROJECT_DIR$/pruebas/laboratorio1/TestGrafo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/laboratorio1/MAIN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/laboratorio1/MAIN.java" afterDir="false" />
-    </list>
+    <list default="true" id="6a97d1ec-7f52-4b2c-b04b-f2c184cf4d74" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +99,7 @@
     <session id="-894961449">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.12" value="1" />
@@ -119,12 +113,12 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="README" value="1" />
-          <entry key="java" value="13" />
+          <entry key="java" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="13" />
+          <entry key="JAVA" value="21" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -132,12 +126,12 @@
         <counts>
           <entry key="README" value="46" />
           <entry key="dummy" value="2" />
-          <entry key="java" value="4797" />
+          <entry key="java" value="4941" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4797" />
+          <entry key="JAVA" value="4941" />
           <entry key="PLAIN_TEXT" value="48" />
         </counts>
       </usages-collector>
@@ -145,29 +139,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/laboratorio1/MAIN.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/laboratorio1/Grafo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="295" column="24" selection-start-line="295" selection-start-column="24" selection-end-line="295" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pruebas/laboratorio1/TestGrafo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1819">
-              <caret line="114" selection-start-line="114" selection-end-line="114" />
+            <state relative-caret-position="493">
+              <caret line="303" column="13" lean-forward="true" selection-start-line="303" selection-start-column="13" selection-end-line="303" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3119#3127#0" expanded="true" />
+                <element signature="e#3250#3258#0" expanded="true" />
+                <element signature="e#3400#3408#0" expanded="true" />
+                <element signature="e#3551#3559#0" expanded="true" />
+                <element signature="e#3682#3690#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/laboratorio1/Grafo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1513">
+              <caret line="187" column="6" selection-start-line="187" selection-start-column="6" selection-end-line="187" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/laboratorio1/Par.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/laboratorio1/Enlaces.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="111" column="72" lean-forward="true" selection-start-line="111" selection-start-column="72" selection-end-line="111" selection-end-column="72" />
+              <folding>
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -211,16 +226,16 @@
         <option value="$PROJECT_DIR$/src/laboratorio1/Comparators.java" />
         <option value="$PROJECT_DIR$/src/laboratorio1/Par.java" />
         <option value="$PROJECT_DIR$/src/laboratorio1/Internet.java" />
+        <option value="$PROJECT_DIR$/src/laboratorio1/MAIN.java" />
         <option value="$PROJECT_DIR$/src/laboratorio1/Grafo.java" />
         <option value="$PROJECT_DIR$/pruebas/laboratorio1/TestGrafo.java" />
-        <option value="$PROJECT_DIR$/src/laboratorio1/MAIN.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="978" />
-    <option name="height" value="1089" />
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1088" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -259,17 +274,6 @@
               <item name="EDA" type="b2602c69:ProjectViewProjectNode" />
               <item name="EDA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="laboratorio1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EDA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EDA" type="462c0819:PsiDirectoryNode" />
-              <item name="tad" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EDA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EDA" type="462c0819:PsiDirectoryNode" />
-              <item name="tad" type="462c0819:PsiDirectoryNode" />
               <item name="laboratorio1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -314,7 +318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MAIN">
+  <component name="RunManager" selected="JUnit.TestGrafo">
     <configuration name="MAIN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="laboratorio1.MAIN" />
       <module name="EDA" />
@@ -348,8 +352,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MAIN" />
         <item itemvalue="JUnit.TestGrafo" />
+        <item itemvalue="Application.MAIN" />
       </list>
     </recent_temporary>
   </component>
@@ -357,34 +361,34 @@
     <configuration />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestGrafo - 2018.11.24 at 09h 50m 05s.xml">
+    <history-entry file="TestGrafo - 2018.12.23 at 17h 27m 15s.xml">
       <configuration name="TestGrafo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGrafo - 2018.11.24 at 09h 52m 25s.xml">
+    <history-entry file="TestGrafo - 2018.12.23 at 17h 27m 37s.xml">
       <configuration name="TestGrafo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGrafo - 2018.11.24 at 09h 53m 45s.xml">
+    <history-entry file="TestGrafo - 2018.12.23 at 22h 01m 06s.xml">
       <configuration name="TestGrafo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGrafo - 2018.11.24 at 09h 53m 48s.xml">
+    <history-entry file="TestGrafo - 2018.12.23 at 22h 12m 51s.xml">
       <configuration name="TestGrafo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGrafo - 2018.11.24 at 09h 54m 12s.xml">
+    <history-entry file="TestGrafo - 2018.12.23 at 22h 14m 10s.xml">
       <configuration name="TestGrafo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGrafo - 2018.11.24 at 12h 54m 30s.xml">
+    <history-entry file="TestGrafo - 2018.12.23 at 22h 15m 00s.xml">
       <configuration name="TestGrafo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGrafo - 2018.11.24 at 13h 01m 11s.xml">
+    <history-entry file="TestGrafo - 2018.12.23 at 22h 15m 46s.xml">
       <configuration name="TestGrafo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGrafo - 2018.11.24 at 13h 02m 08s.xml">
+    <history-entry file="TestGrafo - 2018.12.23 at 22h 22m 45s.xml">
       <configuration name="TestGrafo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGrafo - 2018.11.24 at 21h 24m 10s.xml">
+    <history-entry file="TestGrafo - 2018.12.23 at 22h 49m 25s.xml">
       <configuration name="TestGrafo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestGrafo - 2018.11.26 at 19h 54m 01s.xml">
+    <history-entry file="TestGrafo - 2018.12.23 at 22h 54m 33s.xml">
       <configuration name="TestGrafo" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -392,13 +396,13 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19299406" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.39247313" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.47801417" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4988662" weight="0.50067115" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4988662" weight="0.32885906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.357047" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -480,13 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pruebas/laboratorio1/InternetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="251" selection-start-line="251" selection-end-line="251" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/junit/junit-dep/4.9/junit-dep-4.9.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -502,13 +499,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/module-info.java" />
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="281" selection-start-line="281" selection-end-line="281" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/junit/junit-dep/4.9/junit-dep-4.9.jar!/org/junit/internal/runners/statements/RunAfters.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
@@ -607,13 +597,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/laboratorio1/Par.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -624,13 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/laboratorio1/Enlaces.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/laboratorio1/MAIN.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -638,17 +618,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pruebas/laboratorio1/TestGrafo.java">
+    <entry file="file://$PROJECT_DIR$/pruebas/laboratorio1/InternetTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1819">
-          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        <state relative-caret-position="363">
+          <caret line="251" selection-start-line="251" selection-end-line="251" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/laboratorio1/Enlaces.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="111" column="72" lean-forward="true" selection-start-line="111" selection-start-column="72" selection-end-line="111" selection-end-column="72" />
+          <folding>
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/laboratorio1/Par.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/laboratorio1/Grafo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="295" column="24" selection-start-line="295" selection-start-column="24" selection-end-line="295" selection-end-column="30" />
+        <state relative-caret-position="-1513">
+          <caret line="187" column="6" selection-start-line="187" selection-start-column="6" selection-end-line="187" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="432" selection-start-line="432" selection-end-line="432" />
+          <folding>
+            <element signature="e#10361#10362#0" expanded="true" />
+            <element signature="e#10388#10389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pruebas/laboratorio1/TestGrafo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="303" column="13" lean-forward="true" selection-start-line="303" selection-start-column="13" selection-end-line="303" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3119#3127#0" expanded="true" />
+            <element signature="e#3250#3258#0" expanded="true" />
+            <element signature="e#3400#3408#0" expanded="true" />
+            <element signature="e#3551#3559#0" expanded="true" />
+            <element signature="e#3682#3690#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

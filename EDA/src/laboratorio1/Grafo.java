@@ -188,6 +188,7 @@ public class Grafo {
         this.th.clear();
         this.keys = null;
         this.adjList = null;
+        this.pageRank = new HashMap<>();
         //System.out.println("SE HA RESETEADO: "+th.size());
     }
 
@@ -252,15 +253,13 @@ public class Grafo {
         int id;
         Double d1;
         while (!acabar) {
-            //Recorremos las webs hasta que la diferencia sea menor que el umbral
+            //Recorremos el HashMap para generar la parte de la formula PR(i)/C(i)
             Set<Map.Entry<String, Double>> mapaEntrada = this.pageRank.entrySet();
             Iterator<Map.Entry<String, Double>> itr = mapaEntrada.iterator();
             while(itr.hasNext()) {  //Asignamos la cantidad que va a dividir cada web
                 Map.Entry<String, Double> entrada = itr.next();
                 id = th.get(entrada.getKey());
                 enlaces = Enlaces.getMiEnlaces().id2Enlaces(id); //obtenemos los enlaces
-                //Double d1 = pageRank.get(this.id2Web(this.web2Id(entrada.getKey())));
-                //enlacesEntrantes = Enlaces.getMiEnlaces().referenciados(th.get(entrada.getKey()));
                 if (enlaces==null || enlaces.size()==0 ){
                     puntuacion[id] = 0.0;
                 }else{
