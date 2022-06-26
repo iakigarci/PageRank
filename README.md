@@ -55,7 +55,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<p align="center">
+    <img src="PageRankExample.PNG">
+</p>
+
+**Page Rank** is an algorithm used by Google Search to rank web pages in their search engine results. PageRank is a way of measuring the importance of website pages.
+
+The aim of this project is to use that algorithm to categorize web pages, using advanced data structures such as hashmaps.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -72,7 +78,7 @@ The technologies used for this project are as follows:
 <!-- BASH <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="40" height="40"/>-->     
 <!-- DOCKER <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40"/>-->
 <!-- KUBERNETS  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="40" height="40"/>-->
-<!-- JAVA <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40"/>-->
+<!-- JAVA --><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40"/>
 <!-- JS <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40"/>-->
 <!-- Node <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" height="40"/>-->
 <!-- EX <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="40" height="40"/>-->
@@ -93,34 +99,28 @@ The technologies used for this project are as follows:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-
-
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+Install the latest version of Java. To check your current Java version, run the following command:
+* Java
   ```sh
-  npm install npm@latest -g
+  java -version
   ```
+ You must have java version 8 or higher. 
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Follow this instructuions to run the project properly._
 
-1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/iakigarci/PageRank.git
    ```
-3. Install NPM packages
+3. Install Java 
+4. Run the MAIN.java file and follow the instruction given in the terminal 
    ```sh
-   npm install
+   java MAIN.java
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -128,9 +128,8 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more information, please refer to the [Documentation](PageRankDocumentation.pdf) (Spanish)_ 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -185,18 +184,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Iñaki García 
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/iakigarci/)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-During this project, knowledge has been acquired that will be important for the future. Listed here are the resources that have been used in order to successfully complete this project:
-
-* [Choose an Open Source License](https://choosealicense.com)
+Project Link: [https://github.com/iakigarci/PageRank](https://github.com/iakigarci/PageRank)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
