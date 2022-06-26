@@ -3,12 +3,11 @@
 <br />
 <div align="center">
 
-  <h1 align="center">Best-README-Template</h1>
+  <h1 align="center">Page Rank</h1>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Search heuristic used by Google coded in Java 
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <!--<br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
@@ -44,7 +43,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
